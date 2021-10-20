@@ -3,6 +3,7 @@
 .container {
     display: flex;
     flex-direction: column;
+    font-family: fantasy;
 }
 
 .header {
@@ -16,6 +17,7 @@
     align-items: center;
     justify-content: space-between;
     flex: 1 0 auto;
+
 }
 
 .header img {
@@ -56,4 +58,63 @@ a:hover {
     text-decoration:none; 
     cursor:pointer;  
     -webkit-text-stroke: 1px white;
+}
+
+.intro {
+    justify-content: space-evenly;
+    display: flex;
+    background-color: #bcd3d4;
+    padding: 40px;
+    text-align: center;
+    align-items: center;
+    margin-left: -8px;
+    margin-right: -8px;
+
+}
+
+.intro img {
+    width: 600px;
+    height: auto;
+    border: 5px solid black;
+    margin-right: -40px;
+
+}
+
+.intro-title {
+    -webkit-text-stroke: 2px white;
+    font-size: 50px;
+    padding: 10px;
+    font-weight: bold ;
+
+}
+
+.intro-text {
+    color: white;
+    font-weight: lighter;
+    font-size: 25px;
+    padding: 10px;
+    padding-bottom: 50px;
+
+}
+
+.intro-button {
+    display: inline-block;
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: black;
+    background-color:#8c8f8f;
+    font-size: 20px;
+    text-align: center;
+    transform: scale(1.2);
+    transition: all 0.2s;
+    
+}
+
+.intro-button:hover{
+    background-color: white ;
 }
