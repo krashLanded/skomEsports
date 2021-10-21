@@ -123,6 +123,7 @@ a:hover {
     padding: 60px;
     display: flex;
     flex-direction: column;
+    margin: 85px;
 }
 
 .preview-header {
@@ -151,5 +152,69 @@ figcaption {
     background: rgba(0, 0, 0, 0.5);
     color: #FFF;
     position: relative;
+
+}
+
+
+
+.informational {
+    background-color: #bfbfbf;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 70px;
+
+
+}
+
+.informational-quote {
+    font-size: 30px;
+
+
+}
+
+.sub {
+    display: flex;
+    justify-content: center;
+    background-color: #bcd3d4 ;
+    margin-top: 70px;
+    border-radius: 12px;
+    margin-left: 750px;
+    margin-right: 750px;
+    padding: 15px;
+    font-family: 'Helvetica';
+    text-align: left;
+
+}
+
+.sl-title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+.sub-left {
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-right {
+    margin-top: 50px;
+}
+
+.footer {
+    background-color: gray;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: -20px;
+    padding: 40px;
+    font-family: 'Helvetica';
+    font-weight: bolder;
+    font-size: 15px;
 
 }
