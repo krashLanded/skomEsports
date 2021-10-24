@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+    let myGameChoice = [
+        "Rock",
+        "Paper",
+        "Scissors"
+    ];
+
+        function computerPlay() {
+            let randomChoice = myGameChoice[Math.floor(Math.random()*myGameChoice.length)];
+            return randomChoice;
+        }
+
+        function playRound(playerSelection, computerSelection) {
+            let playerSelection = prompt('Rock, paper, or scissors?');
+                if (playerSelection.toLowerCase() == "rock" && computerSelection.toLowerCase() == rock) {
+                    return('Tie')
+                }
+
+                
+        
+
+                
+        }
+    </script> 
+</body>
+</html>
