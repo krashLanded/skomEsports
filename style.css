@@ -8,7 +8,7 @@ color palette
 */
 
 body {
-    background-color: #E7E5DF;
+    background-color: black;
     font-family: 'Lato';
     padding: 0;
     margin: 0;
@@ -16,7 +16,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #393E41;
+    color: white;
 }
 .container {
     width: 100%;
@@ -26,7 +26,7 @@ a {
 
     width: 100%;
     height: 125px;
-    color: #393E41;
+    color: white;
     line-height: 125px;
     position: sticky;
     top: 0;
@@ -35,6 +35,8 @@ a {
     gap: 3vh;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 10px;
+    
     
 }
 
@@ -100,7 +102,7 @@ li:hover {
 .toggle-button .bar {
     height: 3px;
     width: 100%;
-    background-color: #393E41;
+    background-color: white;
     border-radius: 10px;
 }
 
@@ -109,16 +111,35 @@ li:hover {
         display: flex;
     }
     .header-links {
-        display: none;
+         display: none;
+        flex-direction: column;
+        margin-top: 80px;
+        text-align: right;
+        margin-right: 2rem;
     }
+
+    .header-links.active {
+        display: flex;
+    }
+   
 }
 @media only screen and (max-width: 768px) {
     .toggle-button {
         display: flex;
+        
     }
     .header-links {
-        display: none;
+         display: none;
+        flex-direction: column;
+        margin-top: 100px;
+        text-align: right;
+        margin-right: 2rem;
     }
+
+    .header-links.active {
+        display: flex;
+    }
+  
 }
 
 @media only screen 
@@ -130,6 +151,41 @@ li:hover {
     }
     .header-links {
         display: none;
+       flex-direction: column;
+       margin-top: 100px;
+       text-align: right;
+       margin-right: 2rem;
     }
+
+    .header-links.active {
+        display: flex;
+    }
+   
 }
 
+.intro img {
+    width: 100%;
+    height: auto;
+}
+
+.heysoul-title {
+    margin-top: 20px;
+    font-size: 30px;
+    color: #E9DF79;
+}
+
+.heysoul-text {
+    margin-top: 20px;
+}
+.heysoul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.heysoul img {
+    height: auto;
+    width: 25%;
+}
