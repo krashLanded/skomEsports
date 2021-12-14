@@ -242,3 +242,19 @@ position: fixed;
 .socials.active {
     display: none;
 }
+
+.leader {
+    margin-top: 10px;
+    font-weight: bold;
+    transition: all 0.8s ease;
+    font-style: normal;
+    display: inline-block;
+}
+.leader:hover {
+    font-size: 22px;
+    transition: all 0.8s ease;
+}
+
+.intro {
+    text-align: center;
+}
