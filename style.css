@@ -238,3 +238,7 @@ position: fixed;
   padding: 2px;
 
 }
+
+.socials.active {
+    display: none;
+}
