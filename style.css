@@ -9,9 +9,10 @@ color palette
 
 body {
     background-color: black;
-    font-family: 'Lato';
+    font-family: itc-avant-garde-gothic-pro,sans-serif;
     padding: 0;
     margin: 0;
+    color: white;
 }
 
 a {
@@ -188,4 +189,52 @@ li:hover {
 .heysoul img {
     height: auto;
     width: 25%;
+}
+
+.intro-card {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-title {
+    font-size: 30px;
+    color: #E9DF79;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 3px 6px #393E41;
+}
+
+.title-text {
+    margin-top: 10px;
+    margin: 5px auto;
+    font-style: italic;
+    width: 70%;
+    justify-content: center;
+    text-align: center;
+    color: #D3D0CB;
+    font-family: 'Helvetica';
+    cursor:default;
+}
+
+.socials img {
+    height: 50px;
+    width: auto;
+    
+}
+
+.socials {
+position: fixed;
+  z-index: 1;
+  top: 33%;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 10px;
+  padding: 2px;
+
 }
