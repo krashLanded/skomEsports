@@ -122,7 +122,10 @@ li:hover {
     .header-links.active {
         display: flex;
     }
-   
+    .player.section {
+        width: auto;
+        
+    }
 }
 @media only screen and (max-width: 768px) {
     .toggle-button {
@@ -140,7 +143,10 @@ li:hover {
     .header-links.active {
         display: flex;
     }
-  
+ 
+    .player.section {
+        width: auto;
+    }
 }
 
 @media only screen 
@@ -161,34 +167,15 @@ li:hover {
     .header-links.active {
         display: flex;
     }
+    .player.section{ 
+        width: 100%;
+    }
    
 }
 
 .intro img {
     width: 100%;
     height: auto;
-}
-
-.heysoul-title {
-    margin-top: 20px;
-    font-size: 30px;
-    color: #E9DF79;
-}
-
-.heysoul-text {
-    margin-top: 20px;
-}
-.heysoul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
-
-.heysoul img {
-    height: auto;
-    width: 25%;
 }
 
 .intro-card {
@@ -257,4 +244,48 @@ position: fixed;
 
 .intro {
     text-align: center;
+}
+
+.roster-header {
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    font-style: oblique;
+}
+
+.player-showcase{
+    margin-top: 60px;
+}
+.player-showcase img{
+    height: 400px;
+    width: 250px;
+    position: relative;
+  background: white;
+  border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+  color: white;
+  box-shadow: 20px 20px rgba(255, 255, 255, 0.564);
+  transition: all .4s ease;
+}
+.player-showcase img:hover {
+
+        border-radius: 0% 0% 0% 0% / 0% 0% 5% 5% ;
+        box-shadow: 10px 10px rgba(0,0,0,.25);
+      }
+      
+
+.player.section {
+    display:grid;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    float: left;
+    align-content: center;
+    margin-bottom: 50px;
+    width: auto;
+}
+
+
+.player-text {
+    margin-left: 20px;
+    width: 400px;
 }
