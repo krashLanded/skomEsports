@@ -286,6 +286,7 @@ position: fixed;
 
 
 .player-text {
-    margin-left: 20px;
+    margin-left: 40px;
     width: 400px;
+    background-color: black;
 }
